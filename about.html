@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>About D. Durga | Durga Psychiatric Centre</title>
+<link rel="stylesheet" href="styles.css">
+<style>
+.about-photos { display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:16px; margin:24px 0; }
+.about-photos img { width:100%; height:280px; object-fit:cover; object-position:top; border-radius:16px; box-shadow:0 6px 20px rgba(106,27,154,0.2); border:3px solid #b78c23; transition:transform 0.3s; }
+.about-photos img:hover { transform:scale(1.03); }
+.cred-badge { display:inline-block; background:linear-gradient(135deg,#6a1b9a,#00897b); color:#fff; border-radius:20px; padding:6px 16px; margin:4px; font-size:0.85rem; font-weight:600; }
+.stat-row { display:flex; gap:20px; flex-wrap:wrap; justify-content:center; margin:20px 0; }
+.stat { background:linear-gradient(135deg,#ede7f6,#e0f2f1); border-radius:16px; padding:20px 28px; text-align:center; min-width:140px; }
+.stat b { display:block; font-size:1.8rem; color:#6a1b9a; }
+
+/* ── BRIGHT FOCUS LIST ── */
+.focus-list { list-style:none; padding:10px 0 0; margin:10px 0 0; }
+.focus-list li {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.7;
+  padding: 6px 0 6px 4px;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+  text-shadow: 0 0 12px rgba(180,220,255,0.3);
+  letter-spacing: 0.2px;
+}
+.focus-list li:last-child { border-bottom: none; }
+.focus-list li:hover { color: #ffd66a; cursor: default; transition: color 0.2s; }
+
+/* ── YOUTUBE SECTION ── */
+.yt-section {
+  margin: 12px 0 20px;
+  border-radius: 24px;
+  overflow: hidden;
+  border: 1px solid rgba(255,255,255,0.14);
+  background: linear-gradient(135deg, rgba(20,5,40,0.95), rgba(5,20,50,0.95));
+  box-shadow: 0 16px 50px rgba(0,0,0,0.5);
+}
+.yt-main {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  gap: 0;
+}
+.yt-embed-wrap {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16/9;
+  background: #000;
+}
+.yt-embed-wrap iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  display: block;
+}
+.yt-info {
+  padding: 28px 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 12px;
+}
+.yt-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 14px;
+  border-radius: 999px;
+  background: #ff0000;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  width: fit-content;
+}
+.yt-info h3 {
+  margin: 0;
+  font-size: 18px;
+  font-family: Georgia, serif;
+  color: #fff3c0;
+  line-height: 1.35;
+}
+.yt-info p {
+  margin: 0;
+  font-size: 13px;
+  color: rgba(255,255,255,0.82);
+  line-height: 1.6;
+}
+.yt-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 18px;
+  border-radius: 999px;
+  background: linear-gradient(135deg,#ff0000,#cc0000);
+  color: #fff;
+  font-weight: 700;
+  font-size: 13px;
+  text-decoration: none;
+  width: fit-content;
+  transition: transform 0.2s, box-shadow 0.2s;
+  box-shadow: 0 4px 16px rgba(255,0,0,0.3);
+  margin-top: 4px;
+}
+.yt-link:hover { transform: scale(1.04); box-shadow: 0 6px 22px rgba(255,0,0,0.45); }
+
+@media (max-width: 700px) {
+  .yt-main { grid-template-columns: 1fr; }
+  .yt-embed-wrap { aspect-ratio: 16/9; position: relative; }
+  .yt-info { padding: 20px 16px; }
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="nav">
+    <div class="brand">
+      <div class="logo"></div>
+      <div>
+        <h1>Durga Psychiatric Centre</h1>
+        <p>Private mental health care</p>
+      </div>
+    </div>
+    <div class="actions">
+      <a class="pill" href="index.html">Home</a>
+      <a class="pill" href="ai-test.html">AI Test</a>
+      <a class="btn" href="https://wa.me/917395944527" target="_blank" rel="noopener">WhatsApp</a>
+    </div>
+  </div>
+
+  <section class="page-hero">
+    <div class="eyebrow">About</div>
+    <h2>D. Durga</h2>
+    <p>Founder &amp; CEO — Durga Psychiatric Centre, Durga SoftSkills Academy &amp; Durga Nursing Services</p>
+  </section>
+
+  <section class="pax-section reveal"><div class="pax-bg" style="background-image:url('hero-visual.png')" data-parallax="0.16"></div><div class="pax-content"><h2>D. Durga — Healing. Guiding. Empowering.</h2><p>Over 1000 patients served across Chennai and online</p></div></section><div class="ai-strip reveal"><div class="ai-icon">🧠</div><div class="ai-text"><h3>Free AI Mental Health Test</h3><p>Take our free screening — results in 3 minutes. Private and confidential.</p></div><div class="ai-ctas"><a class="ai-cta-btn primary" href="ai-test.html">Start Free Test →</a><button class="ai-cta-btn secondary" onclick="document.getElementById('dpc-chat-bubble').click()">Chat AI 💬</button></div></div>
+
+  <section class="section-grid">
+    <div class="panel" style="text-align:center;">
+      <img src="profile.jpg" alt="D. Durga — Founder & CEO" style="width:100%;max-width:320px;border-radius:20px;object-fit:cover;box-shadow:0 8px 28px rgba(106,27,154,0.25);border:4px solid #b78c23;">
+      <p style="margin-top:12px;font-weight:700;color:#6a1b9a;font-size:1.1rem;">D. Durga</p>
+      <p style="color:#555;font-size:0.9rem;">Founder &amp; CEO</p>
+    </div>
+    <div class="panel">
+      <h3>Credentials</h3>
+      <div style="margin:12px 0;">
+        <span class="cred-badge">DPN (Psychiatric Nursing)</span>
+        <span class="cred-badge">DAHM (Hospitality Mgmt)</span>
+        <span class="cred-badge">BBA (Marketing)</span>
+        <span class="cred-badge">MBA (Human Resources)</span>
+        <span class="cred-badge">MSW (Medical &amp; Psychiatry)</span>
+      </div>
+      <p>A multi-disciplinary professional combining clinical psychiatric nursing expertise with social work, hospitality, and business management.</p>
+    </div>
+    <div class="panel">
+      <h3>Focus Areas</h3>
+      <p>Counseling, psychiatric care, and mental health education for individuals, families, and institutions — both in-person and online.</p>
+      <ul class="focus-list">
+        <li>🧘 Stress &amp; Anxiety Management</li>
+        <li>💙 Depression &amp; Mood Disorders</li>
+        <li>💑 Couples &amp; Family Therapy</li>
+        <li>🌟 Soft Skills &amp; Life Coaching</li>
+        <li>🏥 Nurse &amp; Caregiver Training</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ═══ YOUTUBE PLAYLIST ═══════════════════════ -->
+  <h3 class="section-title reveal">🎬 Video Gallery — Watch Our Programs</h3>
+
+  <div class="yt-section reveal">
+    <div class="yt-main">
+      <div class="yt-embed-wrap">
+        <iframe
+          src="https://www.youtube.com/embed/videoseries?list=PL682GAq1ZyJDsXdpb09h1Mf0v5Gr1PS_e&autoplay=0&rel=0&modestbranding=1"
+          title="Durga Psychiatric Centre — Video Playlist"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+          loading="lazy">
+        </iframe>
+      </div>
+      <div class="yt-info">
+        <div class="yt-badge">▶ YouTube Playlist</div>
+        <h3>Durga Psychiatric Centre — Programs &amp; Sessions</h3>
+        <p>Watch counseling insights, workshop highlights, mental health awareness sessions, and educational videos by D. Durga.</p>
+        <a class="yt-link" href="https://youtube.com/playlist?list=PL682GAq1ZyJDsXdpb09h1Mf0v5Gr1PS_e&si=a0qLMXw9-66dJAkd" target="_blank" rel="noopener">
+          🔗 Open Full Playlist on YouTube →
+        </a>
+      </div>
+    </div>
+  </div>
+  <!-- ════════════════════════════════════════════ -->
+
+  <div class="stat-row">
+    <div class="stat"><b>1000+</b>Patients Served</div>
+    <div class="stat"><b>5+</b>Years Experience</div>
+    <div class="stat"><b>3</b>Organisations</div>
+    <div class="stat"><b>100%</b>Confidential</div>
+  </div>
+
+  <h3 class="section-title reveal">D. Durga — Photo Gallery</h3>
+  <div class="carousel reveal">
+    <div class="car-viewport">
+      <div class="car-track">
+        <div class="car-slide"><img src="profile.jpg"    alt="D. Durga Official Profile"  ><div class="car-caption">Official Profile<span>Founder &amp; CEO · Durga Psychiatric Centre</span></div></div>
+        <div class="car-slide"><img src="gallery-1.jpg"  alt="D. Durga Conference"         ><div class="car-caption">Conference &amp; Events<span>Representing Durga Psychiatric Centre</span></div></div>
+        <div class="car-slide"><img src="gallery-2.jpg"  alt="D. Durga at Clinic"          ><div class="car-caption">At the Clinic<span>Private counseling · T Nagar, Chennai</span></div></div>
+        <div class="car-slide"><img src="gallery-3.jpg"  alt="D. Durga Counseling Session" ><div class="car-caption">Counseling Session<span>Individual, couples &amp; family therapy</span></div></div>
+        <div class="car-slide"><img src="gallery-4.jpg"  alt="D. Durga Formal Portrait"    ><div class="car-caption">Formal Portrait<span>Multi-disciplinary health professional</span></div></div>
+        <div class="car-slide"><img src="gallery-5.jpg"  alt="D. Durga Blue Saree"         ><div class="car-caption">Professional Consultation<span>Online &amp; in-person sessions</span></div></div>
+        <div class="car-slide"><img src="gallery-6.jpg"  alt="D. Durga Workshop"           ><div class="car-caption">Workshop Day<span>Schools · Colleges · Corporates</span></div></div>
+        <div class="car-slide"><img src="gallery-7.jpg"  alt="D. Durga Training Session"   ><div class="car-caption">Training Session<span>Certificate programs &amp; caregiver training</span></div></div>
+      </div>
+    </div>
+    <button class="car-prev">&#8592;</button>
+    <button class="car-next">&#8594;</button>
+    <div class="car-dots"></div>
+  </div>
+  <div class="car-thumbs reveal">
+    <div class="car-thumb active"><img src="profile.jpg"   alt="1"></div>
+    <div class="car-thumb"><img src="gallery-1.jpg" alt="2"></div>
+    <div class="car-thumb"><img src="gallery-2.jpg" alt="3"></div>
+    <div class="car-thumb"><img src="gallery-3.jpg" alt="4"></div>
+    <div class="car-thumb"><img src="gallery-4.jpg" alt="5"></div>
+    <div class="car-thumb"><img src="gallery-5.jpg" alt="6"></div>
+    <div class="car-thumb"><img src="gallery-6.jpg" alt="7"></div>
+    <div class="car-thumb"><img src="gallery-7.jpg" alt="8"></div>
+  </div>
+
+  <div class="footer">
+    <div><strong>Durga Psychiatric Centre</strong><br><span class="small">Private mental health care • Chennai, Tamil Nadu</span></div>
+    <div>📞 +91 93422 65841 &nbsp;|&nbsp; +91 73959 44527</div>
+    <div><span class="small">www.durgacounselingcentre.com | www.durgamindskillcare.in</span></div>
+  </div>
+</div>
+<a class="wa" href="https://wa.me/917395944527" target="_blank" rel="noopener">WhatsApp</a>
+<script src="script.js"></script>
+</body>
+</html>
